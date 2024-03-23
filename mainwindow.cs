@@ -29,6 +29,21 @@ namespace WpfApp1
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            var login=LoginBox.Text;
+            var password = PasswordBox.Text;
+
+            var context = new AppDbContext();
+
+            var user = context.Users.SingleOrDefault(x => x.Login == login && x.Password == password);
+            if (user is null) 
+            {
+                MessageBox.Show("Неправильный логин или пароль");
+                return;
+            }
+            MessageBox.Show("Вы успешно вошли в аккаунт!");
+
+
+
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
@@ -36,6 +51,17 @@ namespace WpfApp1
            Registration reg = new Registration();
             reg.Show();
             this.Hide();
+        }
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            if (PasswordBox.Visibility == Visibility.Hidden)
+            {
+                PasswordBox.Visibility = Visibility.Visible;
+            }
+            else
+            {
+                PasswordBox.Visibility = Visibility.Hidden;
+            }
         }
     }
     public class AppDbContext : DbContext

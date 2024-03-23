@@ -36,9 +36,10 @@ namespace WpfApp1.Windows
             var login = lg.Text;
             var pass = ps1.Text;
             var email = em.Text;
+            string Special = "!@#$%^&*?";
             if (lg.Text.Length > 0) // проверяем логин
 {
-                if (em.Text.Length > 0 && EmailCheck() == true)// почта
+                if (em.Text.Length > 0 && EmailCheck() == true)// проверяем почту
                 {
                     if (ps1.Text.Length > 0) // проверяем пароль
                     {
@@ -51,14 +52,14 @@ namespace WpfApp1.Windows
                                 MessageBox.Show("Такой пользователь уже купил компьютер!");
                                 return;
                             }
-                            var user = new User { Login = login, Password = pass, Email = email };
+                            var user = new User { Login = login, Password = pass, Email=email };
                             context.Users.Add(user);
                             context.SaveChanges();
                             MessageBox.Show("Добро пожаловать в клуб обладателей компуктеров!");
                         }
                         else MessageBox.Show("Повторите пароль");
                     }
-                    else MessageBox.Show("Укажите пароль");
+                    else MessageBox.Show("Укажите пароль!");
                 }
                 else MessageBox.Show("Укажите потчу");
             }
@@ -68,6 +69,7 @@ namespace WpfApp1.Windows
 
         private void lg_TextChanged(object sender, TextChangedEventArgs e)
         {
+
 
         }
         private bool ps2Check()
@@ -93,6 +95,25 @@ namespace WpfApp1.Windows
             MessageBox.Show("Почта введена неверно!");
 
             return false;
+        }
+
+        private void ps1_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            bool BadSymbolsInside = false;
+            for (int i = 0; i < ps1.Text.Length; i++)
+            {
+                if (!((ps1.Text[i] > 'A' && ps1.Text[i] < 'Z') ||
+                    (ps1.Text[i] > 'a' && ps1.Text[i] < 'z') ||
+                    (ps1.Text[i] > '0' && ps1.Text[i] < '9')))
+                {
+                    BadSymbolsInside = true;
+                }
+            }
+            if (BadSymbolsInside)
+            {
+                MessageBox.Show("Вы используете недопустимые символы \nДля логина можно использовать только латинские буквы и цифры");
+                ps1.Text = "";
+            }
         }
     }
 }
