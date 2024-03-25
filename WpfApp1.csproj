@@ -2,10 +2,21 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net7.0-windows</TargetFramework>
+    <TargetFramework>net7.0-windows7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\глаз.png" />
+    <None Remove="Images\глаз_закрыт.png" />
+    <None Remove="Images\зм.png" />
+    <None Remove="Images\пр.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Classes\" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.17" />
@@ -17,7 +28,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Classes\" />
+    <Resource Include="Images\глаз.png" />
+    <Resource Include="Images\глаз_закрыт.png" />
+    <Resource Include="Images\зм.png" />
+    <Resource Include="Images\пр.png" />
   </ItemGroup>
 
 </Project>

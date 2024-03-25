@@ -1,7 +1,9 @@
-﻿using System;
+﻿using Microsoft.VisualBasic.Logging;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -11,6 +13,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
 namespace WpfApp1.Windows
 {
@@ -33,55 +36,66 @@ namespace WpfApp1.Windows
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
+            LoginErrorBox.Text = string.Empty;
+            EmailErrorBox.Text = string.Empty;
+            PasswordErrorBox.Text = string.Empty;
+            lg.BorderBrush = new SolidColorBrush(Colors.Black);
+            em.BorderBrush = new SolidColorBrush(Colors.Black);
+            ps1.BorderBrush = new SolidColorBrush(Colors.Black);
+            ps2.BorderBrush = new SolidColorBrush(Colors.Black);
             var login = lg.Text;
             var pass = ps1.Text;
             var email = em.Text;
-            string Special = "!@#$%^&*?";
-            if (lg.Text.Length > 0) // проверяем логин
-{
-                if (em.Text.Length > 0 && EmailCheck() == true)// проверяем почту
-                {
-                    if (ps1.Text.Length > 0) // проверяем пароль
-                    {
-                        if (ps2.Text.Length > 0 && ps2Check() == true) // проверяем второй пароль
-                        {
-                            var context = new AppDbContext();
-                            var user_exists = context.Users.FirstOrDefault(x => x.Login == login);
-                            if (user_exists != null)
-                            {
-                                MessageBox.Show("Такой пользователь уже купил компьютер!");
-                                return;
-                            }
-                            var user = new User { Login = login, Password = pass, Email=email };
-                            context.Users.Add(user);
-                            context.SaveChanges();
-                            MessageBox.Show("Добро пожаловать в клуб обладателей компуктеров!");
-                        }
-                        else MessageBox.Show("Повторите пароль");
-                    }
-                    else MessageBox.Show("Укажите пароль!");
-                }
-                else MessageBox.Show("Укажите потчу");
+            var pass2 = ps2.Text;
+            var Context = new AppDbContext();
+
+            var user_exists = Context.Users.FirstOrDefault(x => x.Login == login);
+            if (user_exists is not null)
+            {
+                MessageBox.Show("Такой пользователь уже купил компьютер");
+                return;
             }
-            else MessageBox.Show("Укажите логин");
-            
+            else if (LoginCheck() == false)
+            {
+                lg.BorderBrush = new SolidColorBrush(Colors.Red);
+                LoginErrorBox.Text = "Введите логин";
+            }
+            else if (EmailCheck() == false)
+            {
+                em.BorderBrush = new SolidColorBrush(Colors.Red);
+                return;
+            }
+            else if (PasswordCheck() == false)
+            {
+                ps1.BorderBrush = new SolidColorBrush(Colors.Red);
+                ps2.BorderBrush = new SolidColorBrush(Colors.Red);
+                return;
+            }
+            else
+            {
+                var User = new User { Login = login, Password = pass, Email = email };
+                Context.Users.Add(User);
+                Context.SaveChanges();
+                MessageBox.Show("Добро пожаловать в клуб обладателей компьютеров!");
+                MainWindow mainWindow = new MainWindow();
+                this.Hide();
+                mainWindow.Show();
+            }
+
         }
-
-        private void lg_TextChanged(object sender, TextChangedEventArgs e)
+        private bool LoginCheck()
         {
-
-
-        }
-        private bool ps2Check()
-        {
-            ps1.Text = ps2.Text;
+            if (lg.Text.Length == 0)
+            {
+                return false;
+            }
             return true;
         }
-
         private bool EmailCheck()
         {
             if (em.Text.Length == 0)
             {
+                EmailErrorBox.Text = "Введите электронную почту";
                 return false;
             }
 
@@ -92,28 +106,64 @@ namespace WpfApp1.Windows
                     return true;
                 }
             }
-            MessageBox.Show("Почта введена неверно!");
-
+            EmailErrorBox.Text = "Формат введенной почты некорректен";
             return false;
+        }
+        private bool PasswordCheck()
+        {
+            bool hasUpperCase = false;
+            bool hasDigit = false;
+            bool hasSpecialCharacter = false;
+            if (ps1.Text.Length < 8)
+            {
+                PasswordErrorBox.Text = "Пароль менее 8 символов";
+                return false;
+            }
+            foreach (char c in ps1.Text)
+            {
+                if (char.IsUpper(c))
+                {
+                    hasUpperCase = true;
+                }
+                else if (char.IsDigit(c))
+                {
+                    hasDigit = true;
+                }
+                else if (!char.IsLetterOrDigit(c))
+                {
+                    hasSpecialCharacter = true;
+                }
+            }
+            if (hasUpperCase == false)
+            {
+                PasswordErrorBox.Text = "Пароль не содержит букв верхнего регистра";
+                return false;
+            }
+            if (hasDigit == false)
+            {
+                PasswordErrorBox.Text = "Пароль не содержит цифр";
+                return false;
+            }
+            if (hasSpecialCharacter == false)
+            {
+                PasswordErrorBox.Text = "Пароль не содержит спецсимволов";
+                return false;
+            }
+            if (ps1.Text != ps2.Text)
+            {
+                PasswordErrorBox.Text = "Введенные пароли не совпадают";
+                return false;
+            }
+            return true;
+        }
+
+        private void lg_TextChanged(object sender, TextChangedEventArgs e)
+        {
         }
 
         private void ps1_TextChanged(object sender, TextChangedEventArgs e)
         {
-            bool BadSymbolsInside = false;
-            for (int i = 0; i < ps1.Text.Length; i++)
-            {
-                if (!((ps1.Text[i] > 'A' && ps1.Text[i] < 'Z') ||
-                    (ps1.Text[i] > 'a' && ps1.Text[i] < 'z') ||
-                    (ps1.Text[i] > '0' && ps1.Text[i] < '9')))
-                {
-                    BadSymbolsInside = true;
-                }
-            }
-            if (BadSymbolsInside)
-            {
-                MessageBox.Show("Вы используете недопустимые символы \nДля логина можно использовать только латинские буквы и цифры");
-                ps1.Text = "";
-            }
         }
+        
     }
 }

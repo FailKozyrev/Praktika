@@ -1,0 +1,231 @@
+D:\Учебная практика\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\WpfApp1.exe
+D:\Учебная практика\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\WpfApp1.deps.json
+D:\Учебная практика\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\WpfApp1.runtimeconfig.json
+D:\Учебная практика\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\WpfApp1.dll
+D:\Учебная практика\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\WpfApp1.pdb
+D:\Учебная практика\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Azure.Core.dll
+D:\Учебная практика\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Azure.Identity.dll
+D:\Учебная практика\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Humanizer.dll
+D:\Учебная практика\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Учебная практика\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.Data.SqlClient.dll
+D:\Учебная практика\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.EntityFrameworkCore.dll
+D:\Учебная практика\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Учебная практика\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Учебная практика\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Учебная практика\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Учебная практика\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Учебная практика\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Учебная практика\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Учебная практика\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Учебная практика\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Учебная практика\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.Extensions.DependencyModel.dll
+D:\Учебная практика\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.Extensions.Logging.dll
+D:\Учебная практика\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Учебная практика\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.Extensions.Options.dll
+D:\Учебная практика\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.Extensions.Primitives.dll
+D:\Учебная практика\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.Identity.Client.dll
+D:\Учебная практика\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Учебная практика\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.Identity.Client.NativeInterop.dll
+D:\Учебная практика\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Учебная практика\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Учебная практика\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.IdentityModel.Logging.dll
+D:\Учебная практика\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.IdentityModel.Protocols.dll
+D:\Учебная практика\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Учебная практика\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.IdentityModel.Tokens.dll
+D:\Учебная практика\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.SqlServer.Server.dll
+D:\Учебная практика\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.Web.WebView2.Core.dll
+D:\Учебная практика\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.Web.WebView2.WinForms.dll
+D:\Учебная практика\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.Web.WebView2.Wpf.dll
+D:\Учебная практика\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Mono.TextTemplating.dll
+D:\Учебная практика\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Учебная практика\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\System.Memory.Data.dll
+D:\Учебная практика\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\System.Runtime.Caching.dll
+D:\Учебная практика\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Учебная практика\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Учебная практика\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Учебная практика\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Учебная практика\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Учебная практика\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Учебная практика\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\runtimes\win-arm64\native\msalruntime_arm64.dll
+D:\Учебная практика\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\runtimes\win-x64\native\msalruntime.dll
+D:\Учебная практика\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\runtimes\win-x86\native\msalruntime_x86.dll
+D:\Учебная практика\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\runtimes\win-arm64\native\WebView2Loader.dll
+D:\Учебная практика\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\runtimes\win-x64\native\WebView2Loader.dll
+D:\Учебная практика\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\runtimes\win-x86\native\WebView2Loader.dll
+D:\Учебная практика\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Учебная практика\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\WpfApp1.csproj.AssemblyReference.cache
+D:\Учебная практика\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\mainwindow.g.cs
+D:\Учебная практика\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\Windows\Registration.g.cs
+D:\Учебная практика\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\App.g.cs
+D:\Учебная практика\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\WpfApp1_MarkupCompile.cache
+D:\Учебная практика\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\WpfApp1_MarkupCompile.lref
+D:\Учебная практика\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\mainwindow.baml
+D:\Учебная практика\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\Windows\Registration.baml
+D:\Учебная практика\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\WpfApp1.g.resources
+D:\Учебная практика\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\WpfApp1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Учебная практика\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\WpfApp1.AssemblyInfoInputs.cache
+D:\Учебная практика\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\WpfApp1.AssemblyInfo.cs
+D:\Учебная практика\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\WpfApp1.csproj.CoreCompileInputs.cache
+D:\Учебная практика\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\WpfApp1.sourcelink.json
+D:\Учебная практика\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\WpfApp1.csproj.Up2Date
+D:\Учебная практика\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\WpfApp1.dll
+D:\Учебная практика\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\refint\WpfApp1.dll
+D:\Учебная практика\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\WpfApp1.pdb
+D:\Учебная практика\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\WpfApp1.genruntimeconfig.cache
+D:\Учебная практика\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\ref\WpfApp1.dll
+D:\Учебная практика\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\Windows\Hi.g.cs
+D:\Учебная практика\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\Windows\Hi.baml
+C:\Users\User\Downloads\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\WpfApp1.exe
+C:\Users\User\Downloads\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\WpfApp1.deps.json
+C:\Users\User\Downloads\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\WpfApp1.runtimeconfig.json
+C:\Users\User\Downloads\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\WpfApp1.dll
+C:\Users\User\Downloads\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\WpfApp1.pdb
+C:\Users\User\Downloads\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Azure.Core.dll
+C:\Users\User\Downloads\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Azure.Identity.dll
+C:\Users\User\Downloads\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Humanizer.dll
+C:\Users\User\Downloads\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\User\Downloads\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.Data.SqlClient.dll
+C:\Users\User\Downloads\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\User\Downloads\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\User\Downloads\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\User\Downloads\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\User\Downloads\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\User\Downloads\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\User\Downloads\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\User\Downloads\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\User\Downloads\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\User\Downloads\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\User\Downloads\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\User\Downloads\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.Extensions.Logging.dll
+C:\Users\User\Downloads\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\User\Downloads\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.Extensions.Options.dll
+C:\Users\User\Downloads\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.Extensions.Primitives.dll
+C:\Users\User\Downloads\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.Identity.Client.dll
+C:\Users\User\Downloads\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\User\Downloads\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.Identity.Client.NativeInterop.dll
+C:\Users\User\Downloads\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\User\Downloads\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\User\Downloads\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\User\Downloads\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\User\Downloads\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\User\Downloads\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\User\Downloads\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.SqlServer.Server.dll
+C:\Users\User\Downloads\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.Web.WebView2.Core.dll
+C:\Users\User\Downloads\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\User\Downloads\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\User\Downloads\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Mono.TextTemplating.dll
+C:\Users\User\Downloads\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\User\Downloads\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\System.Memory.Data.dll
+C:\Users\User\Downloads\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\System.Runtime.Caching.dll
+C:\Users\User\Downloads\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\User\Downloads\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\User\Downloads\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\Downloads\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\Downloads\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\Downloads\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\Downloads\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\runtimes\win-arm64\native\msalruntime_arm64.dll
+C:\Users\User\Downloads\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\runtimes\win-x64\native\msalruntime.dll
+C:\Users\User\Downloads\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\runtimes\win-x86\native\msalruntime_x86.dll
+C:\Users\User\Downloads\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\User\Downloads\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\User\Downloads\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\User\Downloads\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\User\Downloads\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\WpfApp1.csproj.AssemblyReference.cache
+C:\Users\User\Downloads\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\mainwindow.g.cs
+C:\Users\User\Downloads\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\Windows\Hi.g.cs
+C:\Users\User\Downloads\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\Windows\Registration.g.cs
+C:\Users\User\Downloads\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\App.g.cs
+C:\Users\User\Downloads\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\WpfApp1_MarkupCompile.cache
+C:\Users\User\Downloads\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\WpfApp1_MarkupCompile.lref
+C:\Users\User\Downloads\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\mainwindow.baml
+C:\Users\User\Downloads\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\Windows\Hi.baml
+C:\Users\User\Downloads\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\Windows\Registration.baml
+C:\Users\User\Downloads\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\WpfApp1.g.resources
+C:\Users\User\Downloads\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\WpfApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Downloads\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\WpfApp1.AssemblyInfoInputs.cache
+C:\Users\User\Downloads\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\WpfApp1.AssemblyInfo.cs
+C:\Users\User\Downloads\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\User\Downloads\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\WpfApp1.sourcelink.json
+C:\Users\User\Downloads\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\WpfApp1.csproj.Up2Date
+C:\Users\User\Downloads\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\WpfApp1.dll
+C:\Users\User\Downloads\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\refint\WpfApp1.dll
+C:\Users\User\Downloads\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\WpfApp1.pdb
+C:\Users\User\Downloads\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\WpfApp1.genruntimeconfig.cache
+C:\Users\User\Downloads\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\ref\WpfApp1.dll
+C:\Users\user\Desktop\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\WpfApp1.exe
+C:\Users\user\Desktop\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\WpfApp1.deps.json
+C:\Users\user\Desktop\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\WpfApp1.runtimeconfig.json
+C:\Users\user\Desktop\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\WpfApp1.dll
+C:\Users\user\Desktop\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\WpfApp1.pdb
+C:\Users\user\Desktop\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Azure.Core.dll
+C:\Users\user\Desktop\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Azure.Identity.dll
+C:\Users\user\Desktop\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Humanizer.dll
+C:\Users\user\Desktop\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\user\Desktop\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.Data.SqlClient.dll
+C:\Users\user\Desktop\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\user\Desktop\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\user\Desktop\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\user\Desktop\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\user\Desktop\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\user\Desktop\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\user\Desktop\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\user\Desktop\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\user\Desktop\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\user\Desktop\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\user\Desktop\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\user\Desktop\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.Extensions.Logging.dll
+C:\Users\user\Desktop\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\user\Desktop\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.Extensions.Options.dll
+C:\Users\user\Desktop\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.Extensions.Primitives.dll
+C:\Users\user\Desktop\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.Identity.Client.dll
+C:\Users\user\Desktop\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\user\Desktop\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.Identity.Client.NativeInterop.dll
+C:\Users\user\Desktop\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\user\Desktop\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\user\Desktop\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\user\Desktop\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\user\Desktop\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\user\Desktop\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\user\Desktop\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.SqlServer.Server.dll
+C:\Users\user\Desktop\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.Web.WebView2.Core.dll
+C:\Users\user\Desktop\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\user\Desktop\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\user\Desktop\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\Mono.TextTemplating.dll
+C:\Users\user\Desktop\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\user\Desktop\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\System.Memory.Data.dll
+C:\Users\user\Desktop\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\System.Runtime.Caching.dll
+C:\Users\user\Desktop\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\user\Desktop\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\user\Desktop\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Desktop\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Desktop\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Desktop\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\user\Desktop\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\runtimes\win-arm64\native\msalruntime_arm64.dll
+C:\Users\user\Desktop\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\runtimes\win-x64\native\msalruntime.dll
+C:\Users\user\Desktop\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\runtimes\win-x86\native\msalruntime_x86.dll
+C:\Users\user\Desktop\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\user\Desktop\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\user\Desktop\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\user\Desktop\УП 3.1\Praktika\bin\Debug\net7.0-windows7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\user\Desktop\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\WpfApp1.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\mainwindow.g.cs
+C:\Users\user\Desktop\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\Windows\Hi.g.cs
+C:\Users\user\Desktop\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\Windows\Registration.g.cs
+C:\Users\user\Desktop\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\App.g.cs
+C:\Users\user\Desktop\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\WpfApp1_MarkupCompile.cache
+C:\Users\user\Desktop\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\WpfApp1_MarkupCompile.lref
+C:\Users\user\Desktop\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\mainwindow.baml
+C:\Users\user\Desktop\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\Windows\Hi.baml
+C:\Users\user\Desktop\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\Windows\Registration.baml
+C:\Users\user\Desktop\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\WpfApp1.g.resources
+C:\Users\user\Desktop\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\WpfApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\WpfApp1.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\WpfApp1.AssemblyInfo.cs
+C:\Users\user\Desktop\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\WpfApp1.sourcelink.json
+C:\Users\user\Desktop\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\WpfApp1.csproj.Up2Date
+C:\Users\user\Desktop\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\WpfApp1.dll
+C:\Users\user\Desktop\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\refint\WpfApp1.dll
+C:\Users\user\Desktop\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\WpfApp1.pdb
+C:\Users\user\Desktop\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\WpfApp1.genruntimeconfig.cache
+C:\Users\user\Desktop\УП 3.1\Praktika\obj\Debug\net7.0-windows7.0\ref\WpfApp1.dll

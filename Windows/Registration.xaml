@@ -19,8 +19,11 @@
             <RowDefinition/>
             <RowDefinition/>
         </Grid.RowDefinitions>
+        <TextBlock Grid.Row="0" Grid.Column="2" TextWrapping="Wrap" FontSize="20" Margin="0,10,0,10" Name="LoginErrorBox"/>
+        <TextBlock Grid.Row="1" Grid.Column="2" TextWrapping="Wrap" FontSize="20" Margin="0,10,0,10" Name="EmailErrorBox"/>
+        <TextBlock Grid.Row="2" Grid.Column="2" TextWrapping="Wrap" FontSize="20" Margin="0,10,0,10" Name="PasswordErrorBox"/>
         <TextBox Background="White" Grid.Column="1" Grid.Row="0" FontSize="20" Margin="0,10,0,10" Name="lg" TextChanged="lg_TextChanged"></TextBox>
-        <TextBox Background="White" Grid.Column="1" Grid.Row="1" FontSize="20" Margin="0,10,0,10" Name="em"></TextBox>
+        <TextBox Background="White" Grid.Column="1" Grid.Row="1" FontSize="20" Margin="0,10,0,10" Name="em"/>
         <TextBox Background="White" Grid.Column="1" Grid.Row="2" FontSize="20" Margin="0,10,0,10" Name="ps1" TextChanged="ps1_TextChanged"></TextBox>
         <TextBox Background="White" Grid.Column="1" Grid.Row="3" FontSize="20" Margin="0,10,0,10" Name="ps2" ></TextBox>
         <TextBlock Grid.Column="0" Grid.Row="0" Margin="0,10,0,87" Grid.RowSpan="2" Text="Логин" FontSize="35" TextAlignment="Center"></TextBlock>

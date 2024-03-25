@@ -30,19 +30,21 @@ namespace WpfApp1
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             var login=LoginBox.Text;
-            var password = PasswordBox.Text;
+            var password = Pass.Text;
 
             var context = new AppDbContext();
 
             var user = context.Users.SingleOrDefault(x => x.Login == login && x.Password == password);
             if (user is null) 
             {
-                MessageBox.Show("Неправильный логин или пароль");
+                ErrorBox.Text="Неправильный логин или пароль";
                 return;
             }
-            MessageBox.Show("Вы успешно вошли в аккаунт!");
-
-
+            else MessageBox.Show("Вы успешно вошли в аккаунт!");
+            Hi ju = new Hi();
+            ju.Show();
+            this.Hide();
+            ju.bro.Text = LoginBox.Text;
 
         }
 
@@ -52,17 +54,24 @@ namespace WpfApp1
             reg.Show();
             this.Hide();
         }
+        
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
-            if (PasswordBox.Visibility == Visibility.Hidden)
-            {
-                PasswordBox.Visibility = Visibility.Visible;
-            }
-            else
-            {
-                PasswordBox.Visibility = Visibility.Hidden;
-            }
+            PasswordBox.Visibility = Visibility.Collapsed;
+            Pass.Text = PasswordBox.Password;
+            Pass.Visibility = Visibility.Visible;
+            PasswordHiddenBtn.Visibility = Visibility.Collapsed;
+            PasswordOpenBtn.Visibility = Visibility.Visible;
         }
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+            PasswordBox.Visibility = Visibility.Visible;
+            PasswordBox.Password = Pass.Text;
+            Pass.Visibility = Visibility.Collapsed;
+            PasswordHiddenBtn.Visibility = Visibility.Visible;
+            PasswordOpenBtn.Visibility = Visibility.Collapsed;
+        }
+
     }
     public class AppDbContext : DbContext
     {

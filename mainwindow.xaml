@@ -22,19 +22,24 @@
             <RowDefinition/>
             <RowDefinition/>
             <RowDefinition/>
-            
+
             <RowDefinition/>
             <RowDefinition/>
         </Grid.RowDefinitions>
+        <TextBlock Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="3" FontSize="20" Name="ErrorBox"/>
         <TextBox Background="White" Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="3" FontSize="20" Name="LoginBox"></TextBox>
-        <TextBox Background="White" Grid.Column="1" Grid.Row="4" Grid.ColumnSpan="3" FontSize="20" Name="PasswordBox"></TextBox>
+        <TextBox Background="White" Grid.Column="1" Grid.Row="4" Grid.ColumnSpan="3" FontSize="20" Name="Pass"></TextBox>
         <Button Grid.Column="1" Grid.Row="5" Grid.ColumnSpan="3" Content="Не зарегистрированы? Зарегистрироваться" Background="Beige" FontSize="20" Click="Button_Click_1" Name="b1" ></Button>
         <Button Content="Войти" Grid.Column="2" Grid.Row="7" Background="LightCyan" FontSize="20" Click="Button_Click"></Button>
-        <Button Grid.Column="4" Grid.Row="3" FontSize="16" Background="Beige" BorderThickness="0" Grid.RowSpan="3" Margin="0,10,10,10" Click="Button_Click_3" >
-            <Image Source="C:\Users\student\Desktop\Praktika\Images\глаз.png" Width="122" Height="85" HorizontalAlignment="Left" RenderTransformOrigin="0.003,0.489" VerticalAlignment="Top" />
+        <Button Grid.Column="4" Grid.Row="3" FontSize="16" Background="Beige" BorderThickness="0" Grid.RowSpan="3" Margin="0,10,10,10" Click="Button_Click_3" Name="PasswordHiddenBtn">
+            <Image Source="\Images\глаз_закрыт.png" Width="122" Height="85" HorizontalAlignment="Left" RenderTransformOrigin="0.003,0.489" VerticalAlignment="Top" />
         </Button>
-        <Image Source="C:\Users\student\Desktop\Praktika\Images\пр.png" Grid.Column="0" Grid.Row="1" Width="81" HorizontalAlignment="Left" Margin="95,48,0,48" Grid.RowSpan="3"  />
-        <Image Source="C:\Users\student\Desktop\Praktika\Images\зм.png" Grid.Column="0" Grid.Row="4" Width="71" HorizontalAlignment="Left" Margin="90,0,0,0"  />
+        <Button Grid.Column="4" Grid.Row="3" FontSize="16" Background="Beige" BorderThickness="0" Grid.RowSpan="3" Margin="0,10,10,10" Name="PasswordOpenBtn" Click="Button_Click_4" Visibility="Collapsed">
+            <Image Source="\Images\глаз.png" Width="122" Height="85" HorizontalAlignment="Left" RenderTransformOrigin="0.003,0.489" VerticalAlignment="Top" />
+        </Button>
+        <Image Source="\Images\пр.png" Grid.Column="0" Grid.Row="1" Width="81" HorizontalAlignment="Left" Margin="95,48,0,48" Grid.RowSpan="3"  />
+        <Image Source="\Images\зм.png" Grid.Column="0" Grid.Row="4" Width="71" HorizontalAlignment="Left" Margin="90,0,0,0"  />
         <TextBlock Text="Войти в стистему" Grid.Column="1" Grid.Row="0" Grid.ColumnSpan="3" TextAlignment="Center" FontSize="24" ></TextBlock>
+        <PasswordBox HorizontalAlignment="Center" Height="48" Grid.Row="4" VerticalAlignment="Center" Width="540" Name="PasswordBox" Grid.Column="1" Grid.ColumnSpan="3"/>
     </Grid>
 </Window>
